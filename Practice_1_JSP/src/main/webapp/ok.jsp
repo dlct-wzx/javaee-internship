@@ -18,7 +18,8 @@
     String name = request.getParameter("name");
     int age = Integer.parseInt(request.getParameter("age"));
     String sex = request.getParameter("sex");
-    String hobbies = Arrays.toString(request.getParameterValues("hobby"));
+    String hobbies = Arrays. toString(request.getParameterValues("hobby"));
+
     if (age < 16){
 %>
     <h3>ERROR:你的年龄是<%=age%>,小于16</h3>

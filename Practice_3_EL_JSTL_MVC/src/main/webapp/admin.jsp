@@ -1,62 +1,75 @@
-<%@ page import="java.util.List" %>
-<%@ page import="com.dlct.utils.MybatisUtils" %>
-<%@ page import="org.apache.ibatis.session.SqlSession" %>
-<%@ page import="com.dlct.Mapper.BookMapper" %>
-<%@ page import="com.dlct.pojo.Book" %><%--
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%--
   Created by IntelliJ IDEA.
   User: 18109
-  Date: 2022/9/27
-  Time: 20:32
+  Date: 2022/10/13
+  Time: 11:17
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>图书管理系统</title>
-  <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-  <%
-    SqlSession sqlSession = MybatisUtils.getSqlSession();
-    BookMapper mapper = sqlSession.getMapper(BookMapper.class);
-    List<Book> books = mapper.queryAllBook();
-    request.setAttribute("list", books);
-  %>
+  <title>数据展示</title>
+  <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+<div class="container">
+  <div class="row clearfix">
+    <div class="col-md-12 column">
+      <div class="page-header">
+        <h1>
+          <small>书籍列表 ----- 显示所有书籍</small>
+        </h1>
+      </div>
+    </div>
 
-<div class="right_col" role="main" style="height:800px">
-  <div class="row">
-    <div class="col-md-9">
-      <!-- <h4>答辩资格名单</h4> -->
-      <ul class="list-inline">
-        <li>图书管理系统</li>
-        <li>/</li>
-        <li>图书名单</li>
-      </ul>
-      <table class="table ">
+    <div class="row">
+      <div class="col-md-4 column">
+        <a class="btn btn-primary" href="${pageContext.request.contextPath}/addBook.jsp">新增书籍</a>
+      </div>
+      <div class="col-md-4 column"></div>
+      <div class="col-md-4 column">
+        <form action="${pageContext.request.contextPath}/book/selectBookByName" method="post" class="form-inline">
+          <span style="color: red; font-weight: bold">${errorr}</span>
+          <input type="text" name="bookName" class="form-control" placeholder="请输入要查询的书籍名称">
+          <input type="submit" value="查询" class="btn btn-primary">
+        </form>
+      </div>
+    </div>
+
+  </div>
+  <div class="row clearfix">
+    <div class="col-md-12 column">
+      <table class="table table-hover table-striped">
         <thead>
         <tr>
-          <th>书号</th>
-          <th>书名</th>
+          <th>书籍编号</th>
+          <th>书籍名称</th>
+          <th>书籍数量</th>
+          <th>书籍详情</th>
+          <th>操作</th>
         </tr>
         </thead>
 
         <tbody>
-        <c:forEach items="${list}" var="book">
+        <c:forEach var="book" items="${list}">
           <tr>
-            <td>${book.id}</td>
-            <td>${book.name}</td>
+            <td>${book.bookID}</td>
+            <td>${book.bookName}</td>
+            <td>${book.bookCounts}</td>
+            <td>${book.detail}</td>
+            <td>
+              <a href="${pageContext.request.contextPath}/updateBook.jsp?id=${book.bookID}">修改</a>
+              &nbsp;  | &nbsp;
+              <a href="${pageContext.request.contextPath}/book/deleteBook?id=${book.bookID}">删除</a>
+            </td>
           </tr>
-
         </c:forEach>
         </tbody>
-
       </table>
     </div>
   </div>
 </div>
+
 </body>
 </html>

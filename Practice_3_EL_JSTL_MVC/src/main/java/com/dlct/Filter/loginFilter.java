@@ -1,8 +1,11 @@
 package com.dlct.Filter;
 
-import com.dlct.Mapper.UserMapper;
+import com.dlct.dao.BookDao;
+import com.dlct.dao.UserDao;
+import com.dlct.pojo.Book;
 import com.dlct.pojo.User;
-import com.dlct.utils.MybatisUtils;
+import com.dlct.service.BookService;
+import com.dlct.service.UserService;
 import org.apache.ibatis.session.SqlSession;
 
 import javax.servlet.*;
@@ -11,21 +14,33 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.sql.SQLException;
+import java.util.List;
 
 public class loginFilter implements Filter {
     public void doFilter(ServletRequest req, ServletResponse resp, FilterChain filterChain) throws IOException, ServletException {
-        SqlSession sqlSession = MybatisUtils.getSqlSession();
-        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
-
+        UserDao userService = new UserService();
         HttpServletRequest request = (HttpServletRequest) req;
         HttpServletResponse response = (HttpServletResponse) resp;
         HttpSession session = request.getSession();
+
+        if (session.getAttribute("rem") != null){
+            //第二次登录直接放行
+            filterChain.doFilter(req, resp);
+
+            return;
+        }
 
         String error = null;
         String account = (String) req.getParameter("account");
         String password = (String) req.getParameter("password");
 
-        User user = mapper.queryUserByName(account);
+        User user = null;
+        try {
+            user = userService.queryUserByName(account);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
 
         if (user == null) {
             error = "账号";
@@ -47,6 +62,7 @@ public class loginFilter implements Filter {
 
             session.setAttribute("rem", true);
             session.removeAttribute("error_my");
+
             filterChain.doFilter(req, resp);
             System.out.println("无错");
         }

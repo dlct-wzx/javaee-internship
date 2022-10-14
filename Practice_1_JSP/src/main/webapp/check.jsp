@@ -41,11 +41,13 @@
     if (error != null){
         session.setAttribute("errorr", error);
         response.sendRedirect("login.jsp");
+    } else {
+        session.removeAttribute("errorr");
+        session.setAttribute("login", true);
+        response.sendRedirect("admin.jsp");
     }
     //无错误，设置错误并跳转
-    session.setAttribute("login", true);
-    session.removeAttribute("errorr");
-    response.sendRedirect("admin.jsp");
+
 %>
 
 </body>

@@ -43,7 +43,7 @@
     %>
 </head>
 <body>
-    <form action="admin.jsp" method="post">
+    <form action="${pageContext.request.contextPath}/book/allBook" method="post">
         账号：<input type="text" name="account" value="<%=account%>"> <br>
         密码：<input type="password" name="password" value="<%=password%>"> <br>
         自动登录：<input type="checkbox" name="remember" value="true"> <br>

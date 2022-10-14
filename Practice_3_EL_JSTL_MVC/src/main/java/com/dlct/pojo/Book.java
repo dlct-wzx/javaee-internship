@@ -1,38 +1,60 @@
 package com.dlct.pojo;
 
 public class Book {
-    private int id;
-    private String name;
+    private int bookID;
+    private String bookName;
+    private int bookCounts;
+    private String detail;
+
+    public int getBookID() {
+        return bookID;
+    }
+
+    public void setBookID(int bookID) {
+        this.bookID = bookID;
+    }
+
+    public String getBookName() {
+        return bookName;
+    }
+
+    public void setBookName(String bookName) {
+        this.bookName = bookName;
+    }
+
+    public int getBookCounts() {
+        return bookCounts;
+    }
+
+    public void setBookCounts(int bookCounts) {
+        this.bookCounts = bookCounts;
+    }
+
+    public String getDetail() {
+        return detail;
+    }
+
+    public void setDetail(String detail) {
+        this.detail = detail;
+    }
 
     public Book() {
     }
 
-    public Book(int id, String name) {
-        this.id = id;
-        this.name = name;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+    public Book(int bookID, String bookName, int bookCounts, String detail) {
+        this.bookID = bookID;
+        this.bookName = bookName;
+        this.bookCounts = bookCounts;
+        this.detail = detail;
     }
 
     @Override
     public String toString() {
         return "Book{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
+                "bookID=" + bookID +
+                ", bookName='" + bookName + '\'' +
+                ", bookCounts=" + bookCounts +
+                ", detail='" + detail + '\'' +
                 '}';
     }
 }
