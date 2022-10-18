@@ -37,8 +37,10 @@ public class Mytest {
         BookMapper mapper = sqlSession.getMapper(BookMapper.class);
         HashMap hashMap = new HashMap();
         hashMap.put("book_name", "javaee");
-        Book book = mapper.selectBookByMap(hashMap);
-        System.out.println(book);
+        List<Book> book = mapper.selectBookByMap(hashMap);
+        for (Book book1 : book) {
+            System.out.println(book1);
+        }
         sqlSession.close();
 
     }

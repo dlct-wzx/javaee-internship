@@ -19,7 +19,7 @@ public interface BookMapper {
     //@Select("select * from javaee_practice.books where id=#{id}")
     Book selectBookById(int id);
 
-    Book selectBookByMap(Map map);
+    List<Book> selectBookByMap(Map map);
 
 
     //@Delete("delete from javaee_practice.books where id = #{id}")

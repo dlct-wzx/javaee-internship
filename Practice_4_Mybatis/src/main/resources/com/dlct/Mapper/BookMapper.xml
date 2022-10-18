@@ -15,24 +15,24 @@
     <select id="selectBookByMap" parameterType="map" resultType="com.dlct.pojo.Book">
         select *
         from javaee_practice.books
-        where
-            <choose>
-                <when test="book_name != null">
-                    book_name=#{book_name}
-                </when>
-                <when test="author != null">
-                    and author=#{author}
-                </when>
-                <when test="price != null">
-                    and price=#{price}
-                </when>
-                <when test="press != null">
-                    and press=#{press}
-                </when>
-                <when test="press_date != null">
-                    and press_date=#{press_date}
-                </when>
-            </choose>
+        <where>
+            <if test="book_name != null">
+                and book_name=#{book_name}
+            </if>
+            <if test="author != null">
+                and author=#{author}
+            </if>
+            <if test="price != null">
+                and price=#{price}
+            </if>
+            <if test="press != null">
+                and press=#{press}
+            </if>
+            <if test="press_date != null">
+                and press_date=#{press_date}
+            </if>
+
+        </where>
     </select>
 
     <delete id="deleteBookById" parameterType="int">
