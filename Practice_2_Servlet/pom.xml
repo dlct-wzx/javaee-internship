@@ -6,6 +6,7 @@
 
     <groupId>com.servlet</groupId>
     <artifactId>Pratice_2_Servlet</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

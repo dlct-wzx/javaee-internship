@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8dd7258b-ee84-4c5f-b6a1-736ce1e690db" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/Practice_2_Servlet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_5_Spring/src/main/java/com/dlct/model/UserLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_5_Spring/src/main/java/com/dlct/pojo/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/src/main/java/com/dlct/Mapper/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/src/main/java/com/dlct/Mapper/BookMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/src/main/java/com/dlct/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/src/main/java/com/dlct/pojo/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/src/main/java/com/dlct/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/src/main/java/com/dlct/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/src/main/java/com/dlct/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/src/main/resources/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/src/main/resources/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/src/main/webapp/jsp/addBook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/src/main/webapp/jsp/allBook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_6_SSM/src/main/webapp/jsp/updateBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_2_Servlet/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/Practice_2_Servlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Practice_2_Servlet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/Pratice_2_Servlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pratice_2_Servlet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/java/com/servlet/EventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/java/com/servlet/FirstServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/java/com/servlet/check.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/java/com/servlet/get.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/webapp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/webapp/count.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/webapp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/webapp/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/webapp/result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/target/classes/com/servlet/EventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/target/classes/com/servlet/FirstServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/target/classes/com/servlet/check.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/target/classes/com/servlet/get.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/target/tmp/jsp/org/apache/jsp/count_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/target/tmp/jsp/org/apache/jsp/count_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/Filter/loginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/Filter/loginFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/Mapper/BookMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/Mapper/BookMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/Mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/Mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/controller/addBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/controller/addBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/controller/allBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/controller/allBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/controller/deleteBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/controller/deleteBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/controller/selectBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/controller/selectBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/controller/updateBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/controller/updateBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/utils/JdbcUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/utils/JdbcUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/utils/MybatisUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/tmp/jsp/org/apache/jsp/admin_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/tmp/jsp/org/apache/jsp/admin_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/tmp/jsp/org/apache/jsp/login_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/tmp/jsp/org/apache/jsp/login_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_5_Spring/src/main/java/com/dlct/aop/cutPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_5_Spring/src/main/java/com/dlct/aop/cutPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_5_Spring/src/main/resources/Spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_5_Spring/src/main/resources/Spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_5_Spring/src/test/java/mytest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_5_Spring/src/test/java/mytest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_5_Spring/target/classes/Spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_5_Spring/target/classes/Spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_5_Spring/target/classes/com/dlct/aop/cutPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_5_Spring/target/classes/com/dlct/aop/cutPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_5_Spring/target/test-classes/mytest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_5_Spring/target/test-classes/mytest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Environment/apache-maven-3.8.6" />
+        <option name="showDialogWithAdvancedSettings" value="true" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\Environment\apache-maven-3.8.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="corretto-11" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="2FeUJB2Q3dM2JvephfQ1FoRG37g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-1.8",
+    "last_opened_file_path": "E:/实习作业/JavaEE/Practice_2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\实习作业\JavaEE\Pratice_2_Servlet\src\main\webapp" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="8dd7258b-ee84-4c5f-b6a1-736ce1e690db" name="变更" comment="" />
+      <created>1664851969328</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664851969328</updated>
+      <workItem from="1664851970678" duration="6392000" />
+      <workItem from="1664886577803" duration="1301000" />
+      <workItem from="1664888165505" duration="959000" />
+      <workItem from="1665454477922" duration="1514000" />
+      <workItem from="1665471884667" duration="27000" />
+      <workItem from="1666065411739" duration="69000" />
+      <workItem from="1666065526863" duration="28000" />
+      <workItem from="1666073047468" duration="82000" />
+      <workItem from="1666340068976" duration="1060000" />
+      <workItem from="1666677809690" duration="175000" />
+      <workItem from="1666678174500" duration="1943000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

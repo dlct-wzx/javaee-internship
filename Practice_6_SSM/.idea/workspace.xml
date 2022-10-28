@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Practice_6_SSM:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0749c0f9-c8f1-40e4-be8f-d7f8c9368741" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/../Practice_2_Servlet/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_5_Spring/src/main/java/com/dlct/model/UserLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_5_Spring/src/main/java/com/dlct/pojo/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dlct/Mapper/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dlct/Mapper/BookMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dlct/Mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dlct/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dlct/pojo/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dlct/pojo/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dlct/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dlct/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dlct/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dlct/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dlct/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addBook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allBook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateBook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02 Servlet技术.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../02 Servlet技术.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_2_Servlet/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_2_Servlet/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_2_Servlet/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/Practice_2_Servlet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/Pratice_2_Servlet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_2_Servlet/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/java/com/servlet/EventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/java/com/servlet/FirstServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/java/com/servlet/check.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/java/com/servlet/get.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/webapp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/webapp/count.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/webapp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/webapp/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/src/main/webapp/result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/target/classes/com/servlet/EventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/target/classes/com/servlet/FirstServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/target/classes/com/servlet/check.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/target/classes/com/servlet/get.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/target/tmp/jsp/org/apache/jsp/count_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_2_Servlet/target/tmp/jsp/org/apache/jsp/count_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/Filter/loginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/Filter/loginFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/Mapper/BookMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/Mapper/BookMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/Mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/Mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/controller/addBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/controller/addBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/controller/allBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/controller/allBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/controller/deleteBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/controller/deleteBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/controller/selectBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/controller/selectBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/controller/updateBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/controller/updateBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/utils/JdbcUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/utils/JdbcUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/com/dlct/utils/MybatisUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/tmp/jsp/org/apache/jsp/admin_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/tmp/jsp/org/apache/jsp/admin_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/tmp/jsp/org/apache/jsp/login_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/tmp/jsp/org/apache/jsp/login_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/tmp/jsp/org/apache/jsp/login_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_3_EL_JSTL_MVC/target/tmp/jsp/org/apache/jsp/login_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_5_Spring/src/main/java/com/dlct/aop/cutPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_5_Spring/src/main/java/com/dlct/aop/cutPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_5_Spring/src/main/resources/Spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_5_Spring/src/main/resources/Spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_5_Spring/src/test/java/mytest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_5_Spring/src/test/java/mytest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_5_Spring/target/classes/Spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_5_Spring/target/classes/Spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_5_Spring/target/classes/com/dlct/aop/cutPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_5_Spring/target/classes/com/dlct/aop/cutPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_5_Spring/target/test-classes/mytest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_5_Spring/target/test-classes/mytest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Environment/apache-maven-3.8.6" />
+        <option name="showDialogWithAdvancedSettings" value="true" />
+        <option name="userSettingsFile" value="D:\Environment\apache-maven-3.8.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="corretto-11" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="2GIefXQ5jd8pDJC3TZYAlb6BnWX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/java/java后端/spring-springmvc-mybatis&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;工件&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;spring&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;24971f814c7f146a90451e82beca422e&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\实习作业\JavaEE\Practice_6_SSM\src\main\webapp" />
+      <recent name="E:\实习作业\JavaEE\Practice_6_SSM\src\main\java" />
+      <recent name="E:\实习作业\JavaEE\Practice_6_SSM\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\实习作业\JavaEE\Practice_6_SSM\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat 服务器.Tomcat 9.0.65">
+    <configuration name="mytest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practice_6_SSM" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="mytest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mytest.user" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practice_6_SSM" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="mytest" />
+      <option name="METHOD_NAME" value="user" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="corretto-11" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Practice_6_SSM:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="4883068d-540c-4847-94b2-114782ed46da" />
+        <option name="HTTP_PORT" value="80" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51884" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Practice_6_SSM:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.mytest.user" />
+      <item itemvalue="JUnit.mytest.test" />
+      <item itemvalue="Tomcat 服务器.Tomcat 9.0.65" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.mytest.user" />
+        <item itemvalue="JUnit.mytest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="0749c0f9-c8f1-40e4-be8f-d7f8c9368741" name="变更" comment="" />
+      <created>1666080629836</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666080629836</updated>
+      <workItem from="1666080631122" duration="546000" />
+      <workItem from="1666339166898" duration="5414000" />
+      <workItem from="1666616847593" duration="11000" />
+      <workItem from="1666677678136" duration="5376000" />
+      <workItem from="1666792604754" duration="86000" />
+      <workItem from="1666849358266" duration="715000" />
+      <workItem from="1666925693176" duration="42000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.apache.ibatis.builder.BuilderException" package="org.apache.ibatis.builder" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

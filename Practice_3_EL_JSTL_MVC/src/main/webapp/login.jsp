@@ -41,8 +41,18 @@
     <%
         }
     %>
+    <style>
+        .app{
+            width: 180px;
+            height: 38px;
+            margin: 100px auto;
+            text-align: center;
+            line-height: 38px;
+        }
+    </style>
 </head>
 <body>
+<div class="app">
     <form action="${pageContext.request.contextPath}/book/allBook" method="post">
         账号：<input type="text" name="account" value="<%=account%>"> <br>
         密码：<input type="password" name="password" value="<%=password%>"> <br>
@@ -54,7 +64,7 @@
             document.forms[0].submit();
         }
     </script>
-
+</div>
 
 </body>
 </html>

@@ -20,10 +20,14 @@
 
     <!--连接数据库-->
     <bean id="dbConnection" class="com.dlct.model.DBConnection">
-        <property name="url" value="jdbc:mysql://localhost:3306/javaee_practice?useSSL=true&amp;characterEncoding=UTF-8&amp;useUnicode=true&amp;serverTimezone=GMT"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/javaee_practice?useSSL=true&amp;characterEncoding=UTF-8&amp;useUnicode=true&amp;serverTimezone=Asia/Shanghai"/>
         <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
         <property name="user" value="root"/>
         <property name="passwd" value="123456"/>
+        <!--<property name="url" value="jdbc:mysql://192.168.0.200/test?characterEncoding=utf8"/>-->
+        <!--<property name="driver" value="com.mysql.cj.jdbc.Driver"/>-->
+        <!--<property name="user" value="root"/>-->
+        <!--<property name="passwd" value="123456"/>-->
     </bean>
 
 
