@@ -1,12 +1,8 @@
 package com.dlct.Filter;
 
-import com.dlct.dao.BookDao;
 import com.dlct.dao.UserDao;
-import com.dlct.pojo.Book;
 import com.dlct.pojo.User;
-import com.dlct.service.BookService;
 import com.dlct.service.UserService;
-import org.apache.ibatis.session.SqlSession;
 
 import javax.servlet.*;
 import javax.servlet.http.Cookie;
@@ -15,7 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.SQLException;
-import java.util.List;
 
 public class loginFilter implements Filter {
     public void doFilter(ServletRequest req, ServletResponse resp, FilterChain filterChain) throws IOException, ServletException {
@@ -52,7 +47,7 @@ public class loginFilter implements Filter {
             //有错
             session.setAttribute("error_my", error);
             System.out.println("有错");
-            response.sendRedirect("login.jsp");
+            response.sendRedirect("index.jsp");
         } else {
             //放行
             Cookie cookie1 = new Cookie("account", account);

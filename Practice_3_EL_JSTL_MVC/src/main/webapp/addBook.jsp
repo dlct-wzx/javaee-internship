@@ -24,7 +24,7 @@
         </div>
     </div>
 
-    <form action="${pageContext.request.contextPath}/book/addBook" method="post">
+    <form action="${pageContext.request.contextPath}/book?type=addBook" method="post">
         <div class="form-group">
             <label>书籍名称</label>
             <input type="text" class="form-control" name="bookName" placeholder="书籍名称" required>

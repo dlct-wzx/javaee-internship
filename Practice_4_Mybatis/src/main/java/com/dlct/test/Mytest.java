@@ -32,33 +32,10 @@ public class Mytest {
     }
 
     @Test
-    public void selectBookByMap(){
-        SqlSession sqlSession = MybatisUtils.getSqlSession();
-        BookMapper mapper = sqlSession.getMapper(BookMapper.class);
-        HashMap hashMap = new HashMap();
-        hashMap.put("book_name", "javaee");
-        List<Book> book = mapper.selectBookByMap(hashMap);
-        for (Book book1 : book) {
-            System.out.println(book1);
-        }
-        sqlSession.close();
-
-    }
-
-    @Test
-    public void deleteBookById(){
-        SqlSession sqlSession = MybatisUtils.getSqlSession();
-        BookMapper mapper = sqlSession.getMapper(BookMapper.class);
-        mapper.deleteBookById(1);
-        sqlSession.commit();
-        sqlSession.close();
-    }
-
-    @Test
     public void insertBook(){
         SqlSession sqlSession = MybatisUtils.getSqlSession();
         BookMapper mapper = sqlSession.getMapper(BookMapper.class);
-        Book book = new Book(1, "javaee", "邹青", 45, "西北农林科技大学出版社", new Date(2022, 10, 10));
+        Book book = new Book(1, "javaee", "邹青", 45, "西北农林科技大学出版社", new Date(122, 10, 10));
         int ju = mapper.insertBook(book);
         System.out.print(ju);
         sqlSession.commit();
@@ -72,6 +49,28 @@ public class Mytest {
         Book book = new Book(3, "javaee", "邹青", 45, "西北农林科技大学出版社", new Date(122, 9, 10));
         mapper.updateBook(book);
         sqlSession.commit();
+        sqlSession.close();
+    }
+
+    @Test
+    public void deleteBookById(){
+        SqlSession sqlSession = MybatisUtils.getSqlSession();
+        BookMapper mapper = sqlSession.getMapper(BookMapper.class);
+        mapper.deleteBookById(1);
+        sqlSession.commit();
+        sqlSession.close();
+    }
+
+    @Test
+    public void selectBookByMap(){
+        SqlSession sqlSession = MybatisUtils.getSqlSession();
+        BookMapper mapper = sqlSession.getMapper(BookMapper.class);
+        HashMap hashMap = new HashMap();
+        hashMap.put("book_name", "java");
+        List<Book> book = mapper.selectBookByMap(hashMap);
+        for (Book book1 : book) {
+            System.out.println(book1);
+        }
         sqlSession.close();
     }
 }

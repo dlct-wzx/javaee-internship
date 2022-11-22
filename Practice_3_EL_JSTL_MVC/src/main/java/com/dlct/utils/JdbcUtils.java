@@ -3,10 +3,10 @@ package com.dlct.utils;
 import java.sql.*;
 
 public class JdbcUtils {
-    private static String driver = "com.mysql.cj.jdbc.Driver";
-    private static String url = "jdbc:mysql://localhost:3306/ssm?useSSL=true&characterEncoding=UTF-8&useUnicode=true&serverTimezone=GMT";
-    private static String userName = "root";
-    private static String passWord = "123456";
+    private static final String driver = "com.mysql.cj.jdbc.Driver";
+    private static final String url = "jdbc:mysql://localhost:3306/ssm?useSSL=true&characterEncoding=UTF-8&useUnicode=true&serverTimezone=GMT";
+    private static final String userName = "root";
+    private static final String passWord = "123456";
 
     //获取连接
     public static Connection getConnection(){

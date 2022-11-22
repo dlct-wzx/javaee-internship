@@ -4,7 +4,10 @@ import com.dlct.dao.UserDao;
 import com.dlct.pojo.User;
 import com.dlct.utils.JdbcUtils;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 

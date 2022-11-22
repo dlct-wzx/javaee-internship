@@ -1,32 +1,70 @@
 <%--
   Created by IntelliJ IDEA.
   User: 18109
-  Date: 2022/10/21
-  Time: 16:10
+  Date: 2022/9/27
+  Time: 20:31
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
-    <style>
-        a{
-            text-decoration: none;
-            color: black;
-            font-size: 18px;
+    <title>登录界面</title>
+    <%
+
+        String account = "";
+        String password = "";
+        String error = (String) session.getAttribute("error_my");
+        if (session.getAttribute("rem") != null) {
+            Cookie[] cookies = request.getCookies();
+            if (cookies != null) {
+                for (Cookie cookie : cookies) {
+                    if ("account".equals(cookie.getName())) {
+                        account = (String) cookie.getValue();
+                    }
+                    if ("password".equals(cookie.getName())) {
+                        password = (String) cookie.getValue();
+                    }
+                }
+            }
+%>
+            <script>
+                var ju = true;
+            </script>
+<%
         }
-        h2{
+        if(error != null){
+    %>
+        <script type="text/javascript">
+            var ju = false;
+            alert("<%=error%>错误");
+        </script>
+    <%
+        }
+    %>
+    <style>
+        .app{
             width: 180px;
             height: 38px;
             margin: 100px auto;
             text-align: center;
             line-height: 38px;
-            background: cornflowerblue;
-            border-radius: 5px;
         }
     </style>
 </head>
 <body>
-<h2><a href="${pageContext.request.contextPath}/login.jsp">进入书籍界面</a> </h2>
+<div class="app">
+    <form action="${pageContext.request.contextPath}/book?type=allBook" method="post">
+        账号：<input type="text" name="account" value="<%=account%>"> <br>
+        密码：<input type="password" name="password" value="<%=password%>"> <br>
+        自动登录：<input type="checkbox" name="remember" value="true"> <br>
+        <input type="submit" value="提交">
+    </form>
+    <script>
+        if (ju === true){
+            document.forms[0].submit();
+        }
+    </script>
+</div>
+
 </body>
 </html>

@@ -12,36 +12,13 @@
         select * from javaee_practice.books where id=#{id}
     </select>
 
-    <select id="selectBookByMap" parameterType="map" resultType="com.dlct.pojo.Book">
-        select *
-        from javaee_practice.books
-        <where>
-            <if test="book_name != null">
-                and book_name=#{book_name}
-            </if>
-            <if test="author != null">
-                and author=#{author}
-            </if>
-            <if test="price != null">
-                and price=#{price}
-            </if>
-            <if test="press != null">
-                and press=#{press}
-            </if>
-            <if test="press_date != null">
-                and press_date=#{press_date}
-            </if>
-
-        </where>
-    </select>
-
     <delete id="deleteBookById" parameterType="int">
         delete from javaee_practice.books where id = #{id}
     </delete>
 
     <insert id="insertBook" parameterType="com.dlct.pojo.Book">
         insert into
-        javaee_practice.books(book_name, author, price, press, press_date)
+            javaee_practice.books(book_name, author, price, press, press_date)
         VALUES (#{book_name}, #{author}, #{price}, #{press}, #{press_date})
     </insert>
 
@@ -55,6 +32,26 @@
         where id = #{id}
     </update>
 
+    <select id="selectBookByMap" parameterType="map" resultType="com.dlct.pojo.Book">
+        select *
+        from javaee_practice.books
+        <where>
+            <if test="book_name != null">
+                and book_name LIKE concat('%', '${book_name}', '%')
+            </if>
+            <if test="author != null">
+                and author like concat('%', '${author}', '%')
+            </if>
+            <if test="price != null">
+                and price > #{price}
+            </if>
+            <if test="press != null">
+                and press like concat('%', '${press}', '%')
+            </if>
+            <if test="press_date != null">
+                and DATE_FORMAT(press_date,'%Y-%m-%d') > '${press_date}'
+            </if>
 
-
+        </where>
+    </select>
 </mapper>

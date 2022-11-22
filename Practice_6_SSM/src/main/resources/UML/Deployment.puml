@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/deployment-diagram
+
+node "DataBase\nMySQL8.0.30"
+node "JavaBean\n封装数据"
+node "JSP\n页面"
+node "Controller层\n控制器"
+node "service层\n业务处理"
+node "Dao层\n数据库操作"
+node "客户端"
+
+"客户端"-right->"Controller层\n控制器"
+"Controller层\n控制器"-right->"客户端"
+"Controller层\n控制器"-right->"service层\n业务处理"
+"service层\n业务处理"-right->"Controller层\n控制器"
+"service层\n业务处理"-right->"Dao层\n数据库操作"
+"Dao层\n数据库操作"-right->"service层\n业务处理"
+"Dao层\n数据库操作"-right->"DataBase\nMySQL8.0.30"
+"DataBase\nMySQL8.0.30"-right->"Dao层\n数据库操作"
+
+"Controller层\n控制器"-->"JSP\n页面" : 返回数据
+
+"JavaBean\n封装数据"-->"Controller层\n控制器" : 返回数据
+"Controller层\n控制器"-->"JavaBean\n封装数据":封装表单数据
+"service层\n业务处理"-->"JavaBean\n封装数据":获取数据
+"JavaBean\n封装数据"-->"service层\n业务处理":传递表单数据
+"Dao层\n数据库操作"-->"JavaBean\n封装数据":获取数据
+"JavaBean\n封装数据"-->"Dao层\n数据库操作":存储表单数据
+
+@enduml

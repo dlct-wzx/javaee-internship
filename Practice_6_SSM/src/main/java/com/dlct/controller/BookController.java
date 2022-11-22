@@ -17,7 +17,6 @@ public class BookController {
     @Qualifier("bookServiceImpl")
     private BookService bookService;
 
-
     //查询全部书籍
     @RequestMapping("/allBook")
     public String list(Model model){

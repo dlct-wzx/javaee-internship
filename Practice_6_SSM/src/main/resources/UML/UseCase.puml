@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+:Admin: as Admin
+
+Admin -right-> (登录)
+(登录)-->(展示图书):<<包含>>
+(登录)-->(修改图书):<<包含>>
+(登录)-->(删除图书):<<包含>>
+(登录)-->(查询图书):<<包含>>
+
+
+
+
+@enduml

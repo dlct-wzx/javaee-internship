@@ -11,7 +11,7 @@ import java.io.InputStream;
 //sqlSession工具类
 public class MybatisUtils {
     private static SqlSessionFactory sqlSessionFactory;
-    static {
+    static {    //静态语句块，在加载时就会运行
         try{
             String resources = "Mybatis-config.xml";
             InputStream inputStream = Resources.getResourceAsStream(resources);
@@ -21,6 +21,7 @@ public class MybatisUtils {
         }
     }
 
+    //用于获取sqlsession
     public  static SqlSession getSqlSession(){
         return sqlSessionFactory.openSession();
     }

@@ -38,7 +38,7 @@
     </div>
   </div>
 
-  <form action="${pageContext.request.contextPath}/book/updateBook" method="post">
+  <form action="${pageContext.request.contextPath}/book?type=updateBook" method="post">
     <div class="form-group">
       <label>书籍编号</label>
       <input type="text" class="form-control" name="bookID" value="${book.bookID}" readonly>

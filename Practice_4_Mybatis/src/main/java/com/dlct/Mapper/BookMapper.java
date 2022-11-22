@@ -11,31 +11,30 @@ import org.junit.Test;
 import java.util.List;
 import java.util.Map;
 
-@Alias("book")
+@Alias("book")  //别名
 public interface BookMapper {
     //@Select("select * from javaee_practice.books")
-    List<Book> selectAllBook();
+    List<Book> selectAllBook();     //查询全部书籍
 
     //@Select("select * from javaee_practice.books where id=#{id}")
-    Book selectBookById(int id);
-
-    List<Book> selectBookByMap(Map map);
-
+    Book selectBookById(int id);    //通过id查询书籍
 
     //@Delete("delete from javaee_practice.books where id = #{id}")
-    int deleteBookById(int id);
+    int deleteBookById(int id);     //通过id删除书籍
 
-    //@Insert("insert into\n" +
-    //        "        javaee_practice.books(book_name, author, price, press, press_date)\n" +
+    //@Insert("insert into" +
+    //        "        javaee_practice.books(book_name, author, price, press, press_date)" +
     //        "        VALUES (#{book_name}, #{author}, #{price}, #{press}, #{press_date})")
-    int insertBook(Book book);
+    int insertBook(Book book);      //插入书籍
 
-    //@Update("update javaee_practice.books\n" +
-    //        "        set book_name = #{book_name},\n" +
-    //        "            author = #{author},\n" +
-    //        "            price = #{price},\n" +
-    //        "            press = #{press},\n" +
-    //        "            press_date = #{press_date}\n" +
+    //@Update("update javaee_practice.books" +
+    //        "        set book_name = #{book_name}," +
+    //        "            author = #{author}," +
+    //        "            price = #{price}," +
+    //        "            press = #{press}," +
+    //        "            press_date = #{press_date}" +
     //        "        where id = #{id}")
-    int updateBook(Book book);
+    int updateBook(Book book);      //更新书籍
+
+    List<Book> selectBookByMap(Map map);    //模糊查询
 }

@@ -2,7 +2,6 @@ package com.dlct.service;
 
 import com.dlct.dao.BookDao;
 import com.dlct.pojo.Book;
-import com.dlct.pojo.User;
 import com.dlct.utils.JdbcUtils;
 
 import java.sql.Connection;

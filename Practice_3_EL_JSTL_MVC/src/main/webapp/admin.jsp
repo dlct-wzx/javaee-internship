@@ -29,7 +29,7 @@
       </div>
       <div class="col-md-4 column"></div>
       <div class="col-md-4 column">
-        <form action="${pageContext.request.contextPath}/book/selectBookByName" method="post" class="form-inline">
+        <form action="${pageContext.request.contextPath}/book?type=selectBook" method="post" class="form-inline">
           <span style="color: red; font-weight: bold">${errorr}</span>
           <input type="text" name="bookName" class="form-control" placeholder="请输入要查询的书籍名称">
           <input type="submit" value="查询" class="btn btn-primary">
@@ -54,6 +54,7 @@
         <tbody>
         <c:forEach var="book" items="${list}">
           <tr>
+            
             <td>${book.bookID}</td>
             <td>${book.bookName}</td>
             <td>${book.bookCounts}</td>
@@ -61,7 +62,7 @@
             <td>
               <a href="${pageContext.request.contextPath}/updateBook.jsp?id=${book.bookID}">修改</a>
               &nbsp;  | &nbsp;
-              <a href="${pageContext.request.contextPath}/book/deleteBook?id=${book.bookID}">删除</a>
+              <a href="${pageContext.request.contextPath}/book?type=deleteBook&id=${book.bookID}">删除</a>
             </td>
           </tr>
         </c:forEach>

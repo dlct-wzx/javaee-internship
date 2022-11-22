@@ -1,10 +1,7 @@
 package com.dlct.controller;
 
 import com.dlct.dao.BookDao;
-import com.dlct.dao.UserDao;
-import com.dlct.pojo.Book;
 import com.dlct.service.BookService;
-import com.dlct.service.UserService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

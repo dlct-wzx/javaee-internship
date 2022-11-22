@@ -1,0 +1,40 @@
+@startuml
+'https://plantuml.com/component-diagram
+
+
+package "controller" {
+  class BookContriller
+}
+
+package "Mapper"{
+    interface BookMapper
+    class UserMapper
+}
+
+package "pojo"{
+    class Books
+    class Users
+}
+
+package "service"{
+    class BookServiceImpl
+    class UserServiceImpl
+    interface BookService
+    interface UserService
+}
+
+"service" ..>"Mapper"  : <<use>>
+"Interceptor" ..>"Mapper" : <<>use>
+"Interceptor" ..>"pojo" : <<import>>
+"controller" ..> "pojo" : <<import>>
+"Mapper" ..>"pojo" : <<import>>
+"service" ..>"pojo" : <<import>>
+
+
+package "Interceptor"{
+    class Loginlnterceptor
+}
+package "utils"{
+    class "MybatisUtils"
+}
+@enduml
